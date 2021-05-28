@@ -108,7 +108,7 @@ p {
     .card {
         flex-direction: column;
         max-width: 500px;
-        height: 900px;
+        height: 875px;
         margin: 2rem auto;
     }
     .image-container {
@@ -164,8 +164,10 @@ p {
     .card {
         flex-direction: column;
         max-width: 350px;
-        height: 900px;
+        height: 850px;
         margin: 2rem auto;
+        align-items: start;
+        justify-content: start;
     }
     .image-container {
         order: 1;
@@ -214,5 +216,6 @@ p {
 
 
 .attribution {
-    margin-top: 20px;;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }

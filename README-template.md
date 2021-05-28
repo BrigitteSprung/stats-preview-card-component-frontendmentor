@@ -28,26 +28,22 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Repo](https://github.com/BrigitteSprung/stats-preview-card-component-frontendmentor)
+- Live Site URL: [Live Site](https://github.com/BrigitteSprung/stats-preview-card-component-frontendmentor)
 
 ## My process
 
 1. First I created my repository and connected it GitHub pages
 2. I started a timer on Toggl to see how long this project will take me
 3. I had a look at the designs to plan my process
+4. I created the structure of the html file
+5. Then a whole bunch of css to see how things work
+6. There was a lot of back and forth trying to get things to fit nicely
+7. And then redoing a lot for mobile
 
 
 ### Built with
@@ -55,61 +51,55 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learnt a lot more about custom CSS properties and flexbox. I still don't think I got things as responsive as I'd like, so I might revisit this project. It was also good practice in using Emmet for speeding up typing. Overall it was a good experience trying to recreate something. 
 
-To see how you can add code snippets, see below:
+Some cool code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+CSS Custom Properties
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+:root {
+ --ff-primary: 'Inter', sans-serif;
+ --ff-secondary: 'Lexend Deca', sans-serif;
+
+ --clr-main: hsl(233, 47%, 7%);
+ --clr-card: hsl(244, 38%, 16%);
+ --clr-accent:  hsl(277, 64%, 61%);
+
+ --clr-text: hsl(0, 0%, 100%);
+
+ --fs-copy: 15px;
+ --fs-heading: 40px;
+
+ --fw-reg: 400;
+ --fw-bold: 700;
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+Reording items in flexbox
+```css
+.image-container {
+        order: 1;
+}
+```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I would like to practice flexbox a bit more and perhaps try this project again but using Grid this time. Essentially just learning to style pages quicker and more effeciently.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Florin Pop](https://www.youtube.com/c/FlorinPop) - This channel has helped a lot with learning CSS and I found out about Frontend Mentor through here.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Website - [Brigitte Sprung](https://brigittesprung.github.io/)
+- Frontend Mentor - [@BrigitteSprung](https://www.frontendmentor.io/profile/BrigitteSprung)
+- LinkedIn - [Brigitte Sprung](https://www.linkedin.com/in/brigittesprung/)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Thanks to Florin Pop for showing me to this website.

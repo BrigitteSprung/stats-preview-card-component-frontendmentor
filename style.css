@@ -38,7 +38,7 @@ body {
     min-height: 100vh;
 }
 
-main {
+.card {
     background-color: var(--clr-card);
     border-radius: 15px;
     display: flex;
@@ -100,9 +100,62 @@ p {
     text-transform: uppercase;
 }
 
-@media (max-width:375) {
-    
+@media (max-width:375px) {
+    body {
+        overflow: hidden;
+        min-height: 100vh;
+        font-size: 0.5rem;
+    }
+    .card {
+        flex-direction: column;
+        max-width: 350px;
+        height: 900px;
+        margin: 2rem auto;
+    }
+    .image-container {
+        order: 1;
+        width: 350px;
+        height: 290px;
+        border-radius: 15px 15px 0 0;
+        margin-bottom: 20px;
+    }
+    img {
+        border-radius: 15px 15px 0 0;
+        
+    }
+    .text-container {
+        order: 2;
+        font-size: 0.5rem;
+        width: 350px;
+        height: 500px;
+        padding: 0 0 20px 20px;
+        margin: 0;
+        text-align: center;
+    }
+    h1 {
+        font-size: 2rem;     
+        padding: 0;
+        margin: 0;
+        margin-bottom: 10px; 
+    }
+    p {
+        font-size: 1rem;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .statistics {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+    }
+    .stats-container {
+        margin: 0;
+        padding: 0;
+    }
 }
+
 
 
 .attribution {

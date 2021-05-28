@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub Repo](https://github.com/BrigitteSprung/stats-preview-card-component-frontendmentor)
-- Live Site URL: [Live Site](https://github.com/BrigitteSprung/stats-preview-card-component-frontendmentor)
+- Live Site URL: [Live Site](https://brigittesprung.github.io/stats-preview-card-component-frontendmentor/)
 
 ## My process
 

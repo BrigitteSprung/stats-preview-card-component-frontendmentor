@@ -45,6 +45,11 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
+1. First I created my repository and connected it GitHub pages
+2. I started a timer on Toggl to see how long this project will take me
+3. I had a look at the designs to plan my process
+
+
 ### Built with
 
 - Semantic HTML5 markup

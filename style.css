@@ -6,3 +6,14 @@ body {
     background-color: hsl(233, 47%, 7%);
     color: white;
 }
+
+.main {
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+}
+.statistics {
+    display: flex;
+}
+.violet {
+    color:  hsl(277, 64%, 61%);
+}
